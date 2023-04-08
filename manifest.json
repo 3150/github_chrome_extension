@@ -8,6 +8,7 @@
     "32": "dist/icon.png"
   },
   "author": "kanetsuki@takaaki.me",
+  "permissions": [],
   "content_scripts": [
     {
       "css": [
