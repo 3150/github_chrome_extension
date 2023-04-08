@@ -1,0 +1,3 @@
+.timeline-comment .previewable-comment-form textarea:not(#new_comment_field) {
+    height: 40vh;
+}

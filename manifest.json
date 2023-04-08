@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Github console extension",
+  "description": "Expand github comment height",
+  "version": "0.1.0",
+  "icons": {
+    "16": "dist/icon.png",
+    "32": "dist/icon.png"
+  },
+  "author": "kanetsuki@takaaki.me",
+  "content_scripts": [
+    {
+      "css": [
+        "dist/extend_style.css"
+      ],
+      "matches": [
+        "https://github.com/*"
+      ]
+    }
+  ]
+}
